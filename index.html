@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="get-name">Get Random Name</button>
+
+<p id="output-name"></p>
+
+    
+<script src="jlRandomNames.js"></script>
+<script>
+    document.getElementById("get-name").onclick = function() {
+        document.getElementById("output-name").innerHTML = rand_name(255);
+    };
+</script>
+
+</body>
+</html>
