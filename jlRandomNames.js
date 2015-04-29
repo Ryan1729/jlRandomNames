@@ -24,6 +24,8 @@ var rand_name = (function () {
 
     function rand_name(len) {
 
+        len = len || 16;
+        
         // Very simple markov generator.
         // We repeat letters to make them more likely.
         var vowels = "aaaeeeiiiooouuyy'",
